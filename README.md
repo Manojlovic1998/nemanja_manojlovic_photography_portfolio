@@ -37,3 +37,9 @@ The portfolio website features my work to the general public. Therefore, UI/UX i
       - Mobile Wireframe - [View](https://github.com/Manojlovic1998/nemanja_manojlovic_photography_portfolio/tree/main/assets/wireframes/Low%20Fidelity/Mobile)
       - Tablet Wireframe - [View](https://github.com/Manojlovic1998/nemanja_manojlovic_photography_portfolio/tree/main/assets/wireframes/Low%20Fidelity/Tablet)
       - Desktop Wireframe - [View](https://github.com/Manojlovic1998/nemanja_manojlovic_photography_portfolio/tree/main/assets/wireframes/Low%20Fidelity/Desktop)
+    
+    - #### High Fidelity
+      - Mobile Wireframe - [View](https://github.com/Manojlovic1998/nemanja_manojlovic_photography_portfolio/tree/main/assets/wireframes/High%20Fidelity/Mobile)
+      - Tablet Wireframe - [View](https://github.com/Manojlovic1998/nemanja_manojlovic_photography_portfolio/tree/main/assets/wireframes/High%20Fidelity/Tablet)
+      - Laptop Wireframe - [View](https://github.com/Manojlovic1998/nemanja_manojlovic_photography_portfolio/tree/main/assets/wireframes/High%20Fidelity/Laptop)
+      - Desktop Wireframe - [View](https://github.com/Manojlovic1998/nemanja_manojlovic_photography_portfolio/tree/main/assets/wireframes/High%20Fidelity/Desktop)
