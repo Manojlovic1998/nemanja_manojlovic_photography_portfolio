@@ -22,7 +22,7 @@ The portfolio website features my work to the general public. Therefore, UI/UX i
     - The four main colors used in the website were created within AdobeXD software. They were chosen such that they compliment and adhere to the simplicity of the design that I had in mind.
     - The psychological properties of the colors picked are neutral. The intent is for images to be the ones that dictate the physiological appeal. Everything else is to be complementary context to that.
 
-    <img align="center" src="assets/doc-images/Color_Pallet.png" width="450" height="250" alt="website-palette">
+    <h2 align="center"><img src="assets/doc-images/Color_Pallet.png" width="450" height="250" alt="website-palette"></h2>
   - #### Typography
     - Project's typography is based mostly on "1,200 Minor Third" type scale with exception to the body font size. The two main fonts used are Georgia and Arial.
   - #### Imagery
