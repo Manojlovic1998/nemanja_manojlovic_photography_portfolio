@@ -44,3 +44,16 @@ The portfolio website features my work to the general public. Therefore, UI/UX i
       - Tablet Wireframe - [View](https://github.com/Manojlovic1998/nemanja_manojlovic_photography_portfolio/tree/main/assets/wireframes/High%20Fidelity/Tablet)
       - Laptop Wireframe - [View](https://github.com/Manojlovic1998/nemanja_manojlovic_photography_portfolio/tree/main/assets/wireframes/High%20Fidelity/Laptop)
       - Desktop Wireframe - [View](https://github.com/Manojlovic1998/nemanja_manojlovic_photography_portfolio/tree/main/assets/wireframes/High%20Fidelity/Desktop)
+    
+## Features
+- ### Feature List
+  - [ ] Landing Page
+  - [ ] Navigation Bar
+  - [ ] Gallery Page
+  - [ ] About Page
+  - [ ] Image viewing functionality
+  - [ ] Responsiveness on all device sizes
+
+- ### Extra Features
+  *Project will be used within my portfolio hence the need for this feature*
+  - [ ] UI page 
