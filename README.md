@@ -57,3 +57,9 @@ The portfolio website features my work to the general public. Therefore, UI/UX i
 - ### Extra Features
   *Project will be used within my portfolio hence the need for this feature*
   - [ ] UI page 
+
+## Testing
+
+### Known Bugs
+
+- There was a format bug within README that happened which made remote README look totally different from what my IDE was displaying. Break tag between the mockup image and the User Experience heading solved the issue.
