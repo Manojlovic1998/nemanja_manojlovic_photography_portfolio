@@ -3,10 +3,8 @@
 This project is a photography portfolio website. The incentive for the project creation is my hobby, photography.
 The portfolio website features my work to the general public. Therefore, UI/UX is not group-specific but rather aimed towards everyone interested in seeing my work.
 
-<h2 align="center"><img src="assets/doc-images/Desktop_mockup.jpg" width="800" height="533"> </h2>
-<br>
+<h2 align="center"><img src="assets/doc-images/Desktop_mockup.jpg" width="800" height="533"></h2>
 ## User Experience (UX)
-
 - ### User stories
     - #### First Time Visitor Goals
       1. As a First Time Visitor, I want to easily understand the main purpose of the site.
