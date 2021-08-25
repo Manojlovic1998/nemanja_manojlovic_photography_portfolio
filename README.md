@@ -6,16 +6,16 @@ The portfolio website features my work to the general public. Therefore, UI/UX i
 <h2 align="center"><img src="assets/doc-images/Desktop_mockup.jpg" width="800" height="533"></h2>
 ## User Experience (UX)
 - ### User stories
-    - #### First Time Visitor Goals
-      1. As a First Time Visitor, I want to easily understand the main purpose of the site.
-      2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-      3. As a First Time Visitor, I want to be able to find out more about the content creator and his motivation for work presented.
+  - #### First Time Visitor Goals
+    1. As a First Time Visitor, I want to easily understand the main purpose of the site.
+    2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+    3. As a First Time Visitor, I want to be able to find out more about the content creator and his motivation for work presented.
   
-    - #### Returning Visitor Goals
-      1. As Returning Visitor, I want to find social links.
+  - #### Returning Visitor Goals
+    1. As Returning Visitor, I want to find social links.
     
-    - #### Frequent User Goals
-      1. As a Frequent User, I want to check to see if there are any newly added images to the gallery.
+  - #### Frequent User Goals
+    1. As a Frequent User, I want to check to see if there are any newly added images to the gallery.
 
 - ### Design
   - #### Colour Scheme
