@@ -1,1 +1,15 @@
 @import url("./shared.css");
+
+
+.ui-h2-line:before {
+    position: absolute;
+    content: "";
+    min-height: 2px;
+    min-width: 70px;
+    background-color: #ABABAB;
+}
+
+.list-of-contents {
+    padding: 0;
+    list-style: none;
+}
