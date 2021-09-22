@@ -1,7 +1,9 @@
 <h1 align="center"> Nemanja Manojlovic Photography Portfolio </h1>
 
 This project is a photography portfolio website. The incentive for the project creation is my hobby, photography.
-The portfolio website features my work to the general public. Therefore, UI/UX is not group-specific but rather aimed towards everyone interested in seeing my work.
+The portfolio website features my work to the public. Therefore, UI/UX is not group-specific but rather aimed towards everyone interested in seeing my work.
+
+Note: I had to develop this project rapidly as at the current time of writing I am participating in ML competition after which I have to do four Microsoft exams and three AWS exams.
 
 <h2 align="center"><img src="assets/doc-images/Desktop_mockup.jpg" width="800" height="533"></h2>
 
