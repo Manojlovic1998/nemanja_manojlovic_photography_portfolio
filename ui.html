@@ -6,9 +6,10 @@
           name="viewport">
     <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <title>Website UI/UX</title>
-    <link href="./static/style/ui.css" rel="stylesheet">
     <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
           integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" rel="stylesheet">
+    <link href="./static/style/ui.css" rel="stylesheet">
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/bf91e26bd5.js"></script>
 </head>
 <body>
 <!--Header Section-->
@@ -100,169 +101,204 @@
 </div>
 <hr class="mt-5">
 <!--Projects Theme-->
-<div>
-    <h2>Material Light Theme</h2>
-    <!--Typography-->
-    <div>
-        <p>Typography</p>
-        <p>Project's typography is based mostly on "1.200 Minor Third" type scale.</p>
-        <ul>
-            <li><p>Headline 1</p>
-                <p>H1/Georgia/Regular/39.81px</p></li>
-            <li><p>Headline 2</p>
-                <p>H2/Georgia/Light/33.18px</p></li>
-            <li><p>Headline 3</p>
-                <p>H3/Georgia/Regular/27.56px</p></li>
-            <li><p>Headline 4</p>
-                <p>H4/Georgia/Regular/23.04px</p></li>
-            <li><p>Headline 5</p>
-                <p>H5/Georgia/Regular/19.20px</p></li>
-            <li><p>Headline 6</p>
-                <p>H6/Georgia/Medium/16.00px</p></li>
-            <li><p>Subtitle 1</p>
-                <p>Subtitle 1/Arial/Regular/16.00px</p></li>
-            <li><p>Subtitle 2</p>
-                <p>Subtitle 2/Georgia/Medium/14.00px</p></li>
-            <li><p>Body 1</p>
-                <p>Body 1/Georgia/Regular/14.00px</p></li>
-            <li><p>Button</p>
-                <p>BUTTON/ARIAL/MEDIUM/14.00px</p></li>
-            <li><p>Caption</p>
-                <p>Caption/Arial/Regular/9.26px</p></li>
-        </ul>
-    </div>
-    <!--Color-->
-    <div>
-        <p>Color</p>
-        <p>The following colors are used to achieve smooth contrast between foreground and background elements.</p>
-        <ul>
-            <li>
-                <p>#414145</p>
-            </li>
-            <li>
-                <p>#ABABAB</p>
-            </li>
-            <li>
-                <p>#CCCCCC</p>
-            </li>
-            <li>
-                <p>#FFFFFF</p>
-            </li>
-        </ul>
-    </div>
-    <!--States-->
-    <div>
-        <p>States</p>
-        <p>The following context provides visual representation of different states of the following elements: Buttons,
-            Navigation, Link, Burger Navigation Icon and Icon Links.</p>
-        <!--Button-->
-        <div>
-            <p>Outlined Button</p>
-            <button>Enabled</button>
-            <button>Hovered</button>
-            <button>Focused</button>
-            <button>Pressed</button>
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <span class="ui-h2-line mt-5 d-none d-md-flex"></span>
+            <h2 class="mt-4 text-center text-md-start">Material Light Theme</h2>
+            <span class="ui-h2-line d-flex justify-content-center mt-3 mb-3 d d-md-none"></span>
         </div>
-        <!--Navigation Link -->
-        <div>
-            <p>Navigation Link</p>
-            <div>
-                <p>Enabled</p>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">About</a></li>
-                </ul>
+        <!--Typography-->
+        <div class="col-12">
+            <p class="mt-5 fw-bold mb-1">Typography</p>
+            <p>Project's typography uses bootstrap default typography setting.</p>
+            <ul class="list-unstyled p-0">
+                <li class="mt-4 d-flex flex-column flex-md-row align-items-md-center"><p class="text-gray">Headline
+                    1</p>
+                    <p class="ms-md-3 h1">H1/Georgia/Regular</p></li>
+                <li class="mt-4 d-flex flex-column flex-md-row align-items-md-center"><p class="text-gray">Headline
+                    2</p>
+                    <p class="ms-md-3 h2">H2/Georgia/Light</p></li>
+                <li class="mt-4 d-flex flex-column flex-md-row align-items-md-center"><p class="text-gray">Headline
+                    3</p>
+                    <p class="ms-md-3 h3">H3/Georgia/Regular</p></li>
+                <li class="mt-4 d-flex flex-column flex-md-row align-items-md-center"><p class="text-gray">Headline
+                    4</p>
+                    <p class="ms-md-3 h4">H4/Georgia/Regular</p></li>
+                <li class="mt-4 d-flex flex-column flex-md-row align-items-md-center"><p class="text-gray">Headline
+                    5</p>
+                    <p class="ms-md-3 h5">H5/Georgia/Regular</p></li>
+                <li class="mt-4 d-flex flex-column flex-md-row align-items-md-center"><p class="text-gray">Headline
+                    6</p>
+                    <p class="ms-md-3 h6">H6/Georgia/Medium</p></li>
+                <li class="mt-4 d-flex flex-column flex-md-row align-items-md-center"><p class="text-gray">Subtitle
+                    1</p>
+                    <p class="ms-md-3 card-subtitle">Subtitle 1/Arial/Regular</p></li>
+                <li class="mt-4 d-flex flex-column flex-md-row align-items-md-center"><p class="text-gray">Body 1</p>
+                    <p class="ms-md-3">Body 1/Georgia/Regular</p></li>
+                <li class="mt-4 d-flex flex-column flex-md-row align-items-md-center"><p class="text-gray">Button</p>
+                    <p class="ms-md-3">BUTTON/ARIAL/MEDIUM</p></li>
+                <li class="mt-4 d-flex flex-column flex-md-row align-items-md-center"><p class="text-gray">Subtitle
+                    2</p>
+                    <p class="ms-md-3 subtitle-small">Subtitle 2/Georgia/Medium</p></li>
+                <li class="mt-4 d-flex flex-column flex-md-row align-items-md-center"><p class="text-gray">Caption</p>
+                    <p class="ms-md-3 caption">Caption/Arial/Regular</p></li>
+            </ul>
+        </div>
+        <!--Color-->
+        <div class="col-12">
+            <p class="mt-5 fw-bold mb-1">Color</p>
+            <p>The following colors are used to achieve smooth contrast between foreground and background elements.</p>
+            <ul class="color-list list-unstyled d-flex flex-row flex-wrap justify-content-between p-0">
+                <li class="text-center">
+                    <div class="color-1 shadow-lg mt-3"></div>
+                    <p class="mt-4">#414145</p>
+                </li>
+                <li class="text-center">
+                    <div class="color-2 shadow-lg mt-3"></div>
+                    <p class="mt-4">#ABABAB</p>
+                </li>
+                <li class="text-center">
+                    <div class="color-3 shadow-lg mt-3"></div>
+                    <p class="mt-4">#CCCCCC</p>
+                </li>
+                <li class="text-center">
+                    <div class="color-4 shadow-lg mt-3"></div>
+                    <p class="mt-4">#FFFFFF</p>
+                </li>
+            </ul>
+        </div>
+        <!--States-->
+        <div class="col-12">
+            <p class="mt-5 fw-bold mb-1">States</p>
+            <p>The following context provides visual representation of different states of the following elements:
+                Buttons,
+                Navigation, Link, Burger Navigation Icon and Icon Links.</p>
+            <!--Button-->
+            <div class="d-flex flex-column">
+                <p class="mt-5 fw-bold text-gray">Outlined Button</p>
+                <div class="button-container mt-3 d-flex flex-wrap justify-content-between">
+                    <button class="btn btn-primary mt-3 text-uppercase">Enabled</button>
+                    <button class="btn btn-primary mt-3 text-uppercase btn-hover">Hovered</button>
+                    <button class="btn btn-primary mt-3 text-uppercase btn-focused">Focused</button>
+                    <button class="btn btn-primary mt-3 text-uppercase btn-active-focused">Pressed</button>
+                </div>
             </div>
-            <div>
-                <p>Hovered</p>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">About</a></li>
-                </ul>
+            <!--Navigation Link -->
+            <div class="row">
+                <p class="mt-5 fw-bold text-gray">Navigation Link</p>
+                <div class="col-12 col-md-4 mt-4">
+                    <p class="text-uppercase fw-bold text-dark-gray text-center mb-1">Enabled</p>
+                    <ul class="p-0 list-unstyled d-flex justify-content-around">
+                        <li><a class="text-uppercase nav-link text-dark-gray" href="#">Home</a></li>
+                        <li><a class="text-uppercase nav-link text-dark-gray" href="#">Gallery</a></li>
+                        <li><a class="text-uppercase nav-link text-dark-gray" href="#">About</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 mt-4">
+                    <p class="text-uppercase fw-bold text-dark-gray text-center mb-1">Hovered</p>
+                    <ul class="p-0 list-unstyled d-flex justify-content-around">
+                        <li><a class="text-uppercase nav-link text-dark-gray nav-link-hovered" href="#">Home</a></li>
+                        <li><a class="text-uppercase nav-link text-dark-gray nav-link-hovered" href="#">Gallery</a></li>
+                        <li><a class="text-uppercase nav-link text-dark-gray nav-link-hovered" href="#">About</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 mt-4">
+                    <p class="text-uppercase fw-bold text-dark-gray text-center mb-1">Active</p>
+                    <ul class="p-0 list-unstyled d-flex justify-content-around">
+                        <li><a class="text-uppercase nav-link text-dark-gray active" href="#">Home</a></li>
+                        <li><a class="text-uppercase nav-link text-dark-gray" href="#">Gallery</a></li>
+                        <li><a class="text-uppercase nav-link text-dark-gray" href="#">About</a></li>
+                    </ul>
+                </div>
             </div>
-            <div>
-                <p>Active</p>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">About</a></li>
-                </ul>
+            <!--Navigation Burger Icon-->
+            <div class="row">
+                <p class="mt-5 fw-bold text-gray">Burger Navigation Icon</p>
+                <div class="col-12 mt-4 d-flex flex-wrap justify-content-around justify-content-md-between navigation-icons-container">
+                    <div>
+                        <p class="text-uppercase fw-bold text-dark-gray text-center mb-1">Enabled</p>
+                        <div class="menu-btn mx-auto mt-3">
+                            <div class="burger-icon"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-uppercase fw-bold text-dark-gray text-center mb-1">Active</p>
+                        <div class="menu-btn open mx-auto mt-3">
+                            <div class="burger-icon"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <!--Navigation Burger Icon-->
-        <div>
-            <div>
-                <p>Enabled</p>
-                <div>icon</div>
+            <!--Icon Links-->
+            <div class="row">
+                <p class="mt-5 fw-bold text-gray">Icon Links</p>
+                <div class="col-12 mt-4 d-flex flex-column flex-sm-row flex-wrap align-items-center justify-content-between s-icon-list">
+                    <div>
+                        <p class="text-uppercase fw-bold text-dark-gray text-center mb-1">Enabled</p>
+                        <ul class="list-unstyled d-flex">
+                            <li><a class="s-media-icon" href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li class="ms-5"><a class="s-media-icon" href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li class="ms-5"><a class="s-media-icon" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li class="ms-5"><a class="s-media-icon" href="#"><i class="fas fa-globe-europe"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="text-uppercase fw-bold text-dark-gray text-center mb-1">Hovered</p>
+                        <ul class="list-unstyled d-flex">
+                            <li><a class="s-media-icon s-media-icon-hovered" href="#"><i
+                                    class="fab fa-instagram"></i></a></li>
+                            <li class="ms-5"><a class="s-media-icon ml-3 s-media-icon-hovered" href="#"><i
+                                    class="fab fa-twitter"></i></a></li>
+                            <li class="ms-5"><a class="s-media-icon ml-3 s-media-icon-hovered" href="#"><i
+                                    class="fab fa-facebook-f"></i></a></li>
+                            <li class="ms-5"><a class="s-media-icon ml-3 s-media-icon-hovered" href="#"><i
+                                    class="fas fa-globe-europe"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div>
-                <p>Active</p>
-                <div>icon</div>
-            </div>
-        </div>
-        <!--Icon Links-->
-        <div>
-            <p>Icon Links</p>
-            <div>
-                <p>Enabled</p>
-                <ul>
-                    <li><a href="#">icon</a></li>
-                    <li><a href="#">icon</a></li>
-                    <li><a href="#">icon</a></li>
-                    <li><a href="#">icon</a></li>
-                </ul>
-            </div>
-            <div>
-                <p>Hovered</p>
-                <ul>
-                    <li><a href="#">icon</a></li>
-                    <li><a href="#">icon</a></li>
-                    <li><a href="#">icon</a></li>
-                    <li><a href="#">icon</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <!--Low Fidelity Design-->
-    <div>
-        <p>Low Fidelity Design</p>
-        <p>Project's wireframe was built with mobile first approach. Adhering to the progressive enhancement principle
-            as much as possible.</p>
-        <div>
-            Mobile (iPhone 12 Pro Max)
-        </div>
-        <div>
-            Tablet (iPad, Nexus)
-        </div>
-        <div>
-            Web (1920)
-        </div>
-        <div>
-            Mobile (iPhone 12 Pro Max)
-        </div>
-    </div>
-    <!--High Fidelity Design-->
-    <div>
-        <p>High Fidelity Wireframe</p>
-        <p>Project's high fidelity was built after the first RAD cycle of the low fidelity wireframe. Therefore, some
-            minor changes were made in order to improve the user experience based on the workshop information I have
-            received.</p>
-        <div>
-            Mobile (iPhone 12 Pro Max)
-        </div>
-        <div>
-            Tablet (iPad, Nexus)
-        </div>
-        <div>
-            Web (1366 x 769)
-        </div>
-        <div>
-            Mobile (1920)
         </div>
     </div>
 </div>
-
+<hr class="mt-5">
+<!--Low Fidelity Design-->
+<div>
+    <p>Low Fidelity Design</p>
+    <p>Project's wireframe was built with mobile first approach. Adhering to the progressive enhancement principle
+        as much as possible.</p>
+    <div>
+        Mobile (iPhone 12 Pro Max)
+    </div>
+    <div>
+        Tablet (iPad, Nexus)
+    </div>
+    <div>
+        Web (1920)
+    </div>
+    <div>
+        Mobile (iPhone 12 Pro Max)
+    </div>
+</div>
+<!--High Fidelity Design-->
+<div>
+    <p>High Fidelity Wireframe</p>
+    <p>Project's high fidelity was built after the first RAD cycle of the low fidelity wireframe. Therefore, some
+        minor changes were made in order to improve the user experience based on the workshop information I have
+        received.</p>
+    <div>
+        Mobile (iPhone 12 Pro Max)
+    </div>
+    <div>
+        Tablet (iPad, Nexus)
+    </div>
+    <div>
+        Web (1366 x 769)
+    </div>
+    <div>
+        Mobile (1920)
+    </div>
+</div>
 </body>
 </html>

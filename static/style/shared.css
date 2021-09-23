@@ -1,7 +1,17 @@
+/*Text Colors*/
+.text-light-gray {
+    color: #cccccc;
+}
 
+.text-gray {
+    color: #ABABAB;
+}
 
+.text-dark-gray {
+    color: #414145;
+}
 
-
+/*Background Colors*/
 .bg-light-gray {
     background-color: #cccccc;
 }
@@ -12,4 +22,145 @@
 
 .bg-dark-gray {
     background-color: #414145;
+}
+
+/*Font Classes*/
+
+.subtitle-small {
+    font-size: 14px;
+}
+
+.caption {
+    font-size: 14px;
+}
+
+/*Buttons*/
+
+.btn {
+    padding: 0.7rem 3.5rem;
+    border-color: #414145;
+    border-width: 2px;
+    color: #414145;
+}
+
+.btn:hover {
+    background: #414145;
+    border-color: #414145;
+}
+
+.btn:active {
+    box-shadow: 0 0 0 0.25rem rgba(204, 204, 204, 1);
+    border-color: #414145;
+    border-width: 2px;
+    background: #414145;
+    color: #FFFFFF;
+}
+
+.btn:focus, .btn-check:focus + .btn-primary {
+    background: initial;
+    border-color: #ABABAB;
+    border-style: solid;
+    border-width: 2px;
+    color: #414145;
+    box-shadow: 0 0 0 0.25rem rgba(204, 204, 204, 1);
+}
+
+.btn-primary {
+    background-color: initial;
+}
+
+.btn-primary:active:focus {
+    box-shadow: 0 0 0 0.25rem rgba(204, 204, 204, 1);
+}
+
+/* Nav Links */
+
+.nav-link:focus {
+    color: #414145;
+}
+
+.nav-link:hover {
+    color: #cccccc;
+}
+
+.active {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.active:hover {
+    color: #414145;
+}
+
+.active::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 48px;
+    background-color: #414145;
+}
+
+/* Nav Burger Icon */
+
+.menu-btn {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    min-height: 28px;
+    width: 32px;
+}
+
+.burger-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #414145;
+    height: 4px;
+    width: 32px;
+}
+
+.burger-icon::before {
+    position: absolute;
+    transform: translateY(-9px);
+    content: "";
+    background-color: #414145;
+    height: 4px;
+    width: 32px;
+    transition: all .5s ease-in-out;
+}
+
+.burger-icon::after {
+    position: absolute;
+    transform: translate(-7px, 9px);
+    content: "";
+    background-color: #414145;
+    height: 4px;
+    width: 18px;
+    transition: all .5s ease-in-out;
+}
+
+.menu-btn.open > .burger-icon {
+    background-color: transparent;
+}
+
+
+.menu-btn.open > .burger-icon::before {
+    transform: rotate(40deg);
+}
+
+.menu-btn.open > .burger-icon::after {
+    width: 30px;
+    transform: rotate(-40deg);
+}
+
+/* Class social-icon is targeted by ad blockers so s-media-icon was used as walk around*/
+.s-media-icon {
+    font-size: 2rem;
+    color: #414145;
+}
+
+.s-media-icon:hover {
+    color: #cccccc;
 }
