@@ -18,6 +18,7 @@
 .feature-list {
     list-style-position: inside;
 }
+
 /*Color Section*/
 .color-list {
     max-width: 500px;
@@ -169,7 +170,7 @@
         scroll-padding: 0;
     }
 
-    .tablet-low-fid > img, .mobile-low-fid > img, .mobile-high-fid > img, .tablet-high-fid > img{
+    .tablet-low-fid > img, .mobile-low-fid > img, .mobile-high-fid > img, .tablet-high-fid > img {
         scroll-snap-align: start;
     }
 }
