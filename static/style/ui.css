@@ -120,3 +120,70 @@
 .s-media-icon-hovered {
     color: #cccccc;
 }
+
+
+/* Low Fidelity */
+
+/* I don't want the scroll to be available on larger screens I just want to have the UI as it is*/
+
+
+.tablet-low-fid, .mobile-low-fid {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: auto;
+    max-width: min-content;
+    grid-gap: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 30rem;
+}
+
+.desktop-low-fid img {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-rows: auto;
+    height: 30rem;
+    width: 100%;
+}
+
+.mobile-low-fid::-webkit-scrollbar {
+    display: none;
+}
+
+.tablet-low-fid::-webkit-scrollbar {
+    max-height: 8px;
+    background-color: #cccccc;
+}
+
+.tablet-low-fid::-webkit-scrollbar-thumb {
+    background-color: #ABABAB;
+    border-radius: 5px;
+}
+
+@supports (scroll-snap-type: x mandatory) {
+    .tablet-low-fid, .mobile-low-fid {
+        scroll-snap-type: x mandatory;
+        scroll-padding: 0;
+    }
+
+    .tablet-low-fid > img, .mobile-low-fid > img {
+        scroll-snap-align: start;
+    }
+}
+
+.tablet-low-fid > img, .mobile-low-fid > img {
+    max-height: 30rem;
+}
+
+@media (max-width: 1380px) {
+    .mobile-low-fid::-webkit-scrollbar {
+        display: block;
+        max-height: 8px;
+        background-color: #cccccc;
+    }
+
+    .mobile-low-fid::-webkit-scrollbar-thumb {
+        background-color: #ABABAB;
+        border-radius: 5px;
+    }
+}
