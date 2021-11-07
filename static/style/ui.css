@@ -14,7 +14,10 @@
     list-style: none;
 }
 
-
+/* Features */
+.feature-list {
+    list-style-position: inside;
+}
 /*Color Section*/
 .color-list {
     max-width: 500px;
