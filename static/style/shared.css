@@ -1,3 +1,8 @@
+h1 {
+    font-family: 'DM Serif Text', serif;
+    letter-spacing: 0.2rem;
+}
+
 /*Text Colors*/
 .text-light-gray {
     color: #cccccc;
@@ -38,21 +43,21 @@
 
 .btn {
     padding: 0.7rem 3.5rem;
-    border-color: #414145;
+    border-color: #cccccc;
     border-width: 2px;
-    color: #414145;
+    color: #cccccc;;
 }
 
 .btn:hover {
     background: #414145;
-    border-color: #414145;
+    border-color: #cccccc;
 }
 
 .btn:active {
     box-shadow: 0 0 0 0.25rem rgba(204, 204, 204, 1);
-    border-color: #414145;
+    border-color: #cccccc;
     border-width: 2px;
-    background: #414145;
+    background: #cccccc;
     color: #FFFFFF;
 }
 
@@ -61,7 +66,7 @@
     border-color: #ABABAB;
     border-style: solid;
     border-width: 2px;
-    color: #414145;
+    color: #ABABAB;
     box-shadow: 0 0 0 0.25rem rgba(204, 204, 204, 1);
 }
 
