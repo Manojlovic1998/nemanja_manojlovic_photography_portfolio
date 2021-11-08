@@ -1,0 +1,6 @@
+@import url("./shared.css");
+
+.landing-page-background {
+    background: url("../img/landing-page-bg.jpg") no-repeat;
+    background-size: cover;
+}
