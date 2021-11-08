@@ -3,6 +3,10 @@ h1 {
     letter-spacing: 0.2rem;
 }
 
+/*Nav Logo*/
+.navbar-brand{
+    width: 100px;
+}
 /*Text Colors*/
 .text-light-gray {
     color: #cccccc;
@@ -121,7 +125,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #414145;
+    background-color: #cccccc;
     height: 4px;
     width: 32px;
 }
@@ -130,7 +134,7 @@ h1 {
     position: absolute;
     transform: translateY(-9px);
     content: "";
-    background-color: #414145;
+    background-color: #cccccc;
     height: 4px;
     width: 32px;
     transition: all .5s ease-in-out;
@@ -140,7 +144,7 @@ h1 {
     position: absolute;
     transform: translate(-7px, 9px);
     content: "";
-    background-color: #414145;
+    background-color: #cccccc;
     height: 4px;
     width: 18px;
     transition: all .5s ease-in-out;

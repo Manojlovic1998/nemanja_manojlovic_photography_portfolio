@@ -1,6 +1,13 @@
 @import url("./shared.css");
 
 .landing-page-background {
-    background: url("../img/landing-page-bg.jpg") no-repeat;
     background-size: cover;
+    background: url("../img/landing-page-bg.jpg") no-repeat 56% 32%;
+    min-height: 100vh;
+}
+
+.menu-btn {
+    background: transparent;
+    border: none;
+    padding: 0;
 }
