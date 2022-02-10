@@ -1,199 +1,204 @@
 h1 {
-    font-family: 'DM Serif Text', serif;
-    letter-spacing: 0.2rem;
+  font-family: "DM Serif Text", serif;
+  letter-spacing: 0.2rem;
 }
 
 /*Nav Logo*/
-.navbar-brand{
-    width: 100px;
+.navbar-brand {
+  width: 100px;
 }
 /*Text Colors*/
 .text-light-gray {
-    color: #cccccc;
+  color: #cccccc;
 }
 
 .text-gray {
-    color: #ABABAB;
+  color: #ababab;
 }
 
 .text-dark-gray {
-    color: #414145;
+  color: #414145;
 }
 
 /*Background Colors*/
 .bg-light-gray {
-    background-color: #cccccc;
+  background-color: #cccccc;
 }
 
 .bg-gray {
-    background-color: #ABABAB;
+  background-color: #ababab;
 }
 
 .bg-dark-gray {
-    background-color: #414145;
+  background-color: #414145;
 }
 
 /*Font Classes*/
 
 .subtitle-small {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .caption {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 /*Buttons*/
 
 .btn {
-    padding: 0.7rem 3.5rem;
-    border-color: #cccccc;
-    border-width: 2px;
-    color: #cccccc;;
+  padding: 0.7rem 3.5rem;
+  border-color: #cccccc;
+  border-width: 2px;
+  color: #cccccc;
 }
 
 .btn:hover {
-    background: #414145;
-    border-color: #cccccc;
+  background: #414145;
+  border-color: #cccccc;
 }
 
 .btn:active {
-    box-shadow: 0 0 0 0.25rem rgba(204, 204, 204, 1);
-    border-color: #cccccc;
-    border-width: 2px;
-    background: #cccccc;
-    color: #FFFFFF;
+  box-shadow: 0 0 0 0.25rem rgba(204, 204, 204, 1);
+  border-color: #cccccc;
+  border-width: 2px;
+  background: #cccccc;
+  color: #ffffff;
 }
 
-.btn:focus, .btn-check:focus + .btn-primary {
-    background: initial;
-    border-color: #ABABAB;
-    border-style: solid;
-    border-width: 2px;
-    color: #ABABAB;
-    box-shadow: 0 0 0 0.25rem rgba(204, 204, 204, 1);
+.btn:focus,
+.btn-check:focus + .btn-primary {
+  background: initial;
+  border-color: #ababab;
+  border-style: solid;
+  border-width: 2px;
+  color: #ababab;
+  box-shadow: 0 0 0 0.25rem rgba(204, 204, 204, 1);
 }
 
 .btn-primary {
-    background-color: initial;
+  background-color: initial;
 }
 
 .btn-primary:active:focus {
-    box-shadow: 0 0 0 0.25rem rgba(204, 204, 204, 1);
+  box-shadow: 0 0 0 0.25rem rgba(204, 204, 204, 1);
 }
 
 /* Nav Links */
 .nav-link {
-    border: 1px solid rgba(0,0,0,.125);
+  border: 1px solid rgba(0, 0, 0, 0.125);
 }
 
 #side-nav > ul > li > a.nav-link {
-    border-width: 0 0 1px;
+  border-width: 0 0 1px;
 }
 
 .nav-link:focus {
-    color: #414145;
+  color: #414145;
 }
 
 .nav-link:hover {
-    color: #cccccc;
+  color: #cccccc;
 }
 
 .active {
-    display: flex;
-    justify-content: center;
-    align-items: end;
+  display: flex;
+  justify-content: center;
+  align-items: end;
 }
 
 .active:hover {
-    color: #414145;
+  color: #414145;
 }
 
 .active::before {
-    content: "";
-    position: absolute;
-    height: 2px;
-    width: 48px;
-    background-color: #414145;
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 48px;
+  background-color: #414145;
+}
+
+.mobile-nav-list {
+  margin-top: 8rem;
 }
 
 /* Nav Burger Icon */
 
 .menu-btn {
-    position: relative;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    min-height: 28px;
-    width: 32px;
+  position: relative;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  min-height: 28px;
+  width: 32px;
 }
 
 .burger-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #cccccc;
-    height: 4px;
-    width: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #cccccc;
+  height: 4px;
+  width: 32px;
 }
 
 .burger-icon::before {
-    position: absolute;
-    transform: translateY(-9px);
-    content: "";
-    background-color: #cccccc;
-    height: 4px;
-    width: 32px;
-    transition: all .5s ease-in-out;
+  position: absolute;
+  transform: translateY(-9px);
+  content: "";
+  background-color: #cccccc;
+  height: 4px;
+  width: 32px;
+  transition: all 0.5s ease-in-out;
 }
 
 .burger-icon::after {
-    position: absolute;
-    transform: translate(-7px, 9px);
-    content: "";
-    background-color: #cccccc;
-    height: 4px;
-    width: 18px;
-    transition: all .5s ease-in-out;
+  position: absolute;
+  transform: translate(-7px, 9px);
+  content: "";
+  background-color: #cccccc;
+  height: 4px;
+  width: 18px;
+  transition: all 0.5s ease-in-out;
 }
 
 .menu-btn.open > .burger-icon {
-    background-color: transparent;
+  background-color: transparent;
 }
 
-
 .menu-btn.open > .burger-icon::before {
-    transform: rotate(40deg);
+  transform: rotate(40deg);
 }
 
 .menu-btn.open > .burger-icon::after {
-    width: 30px;
-    transform: rotate(-40deg);
+  width: 30px;
+  transform: rotate(-40deg);
 }
 
 #nav-btn {
-    z-index: 9999;
+  z-index: 9999;
 }
 
-#nav-btn.open > span::after, #nav-btn.open > span::before {
-    background: #414145;
+#nav-btn.open > span::after,
+#nav-btn.open > span::before {
+  background: #414145;
 }
 
 #side-nav {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 280px;
-    height: 100%;
-    background: #ABABAB;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 280px;
+  height: 100%;
+  background: #ababab;
 }
 
 /* Class social-icon is targeted by ad blockers so s-media-icon was used as walk around*/
 .s-media-icon {
-    font-size: 2rem;
-    color: #414145;
+  font-size: 2rem;
+  color: #414145;
 }
 
 .s-media-icon:hover {
-    color: #cccccc;
+  color: #cccccc;
 }
