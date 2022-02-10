@@ -83,6 +83,13 @@ h1 {
 }
 
 /* Nav Links */
+.nav-link {
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+#side-nav > ul > li > a.nav-link {
+    border-width: 0 0 1px;
+}
 
 .nav-link:focus {
     color: #414145;
@@ -162,6 +169,23 @@ h1 {
 .menu-btn.open > .burger-icon::after {
     width: 30px;
     transform: rotate(-40deg);
+}
+
+#nav-btn {
+    z-index: 9999;
+}
+
+#nav-btn.open > span::after, #nav-btn.open > span::before {
+    background: #414145;
+}
+
+#side-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 280px;
+    height: 100%;
+    background: #ABABAB;
 }
 
 /* Class social-icon is targeted by ad blockers so s-media-icon was used as walk around*/
