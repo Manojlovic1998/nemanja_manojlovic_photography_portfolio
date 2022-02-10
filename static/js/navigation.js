@@ -1,17 +1,22 @@
 let navOpenStatus = false;
-let buttonNode = document.getElementById("nav-btn");
 
 
-buttonNode.addEventListener("click", onBtnClickHandler);
+window.addEventListener("load", function () {
+    let buttonNode = document.getElementById("nav-btn");
+    let sideNavNode = document.getElementById("side-nav");
+
+    buttonNode.addEventListener("click", onBtnClickHandler);
 
 
-function onBtnClickHandler() {
-    "use strict";
-    navOpenStatus = !navOpenStatus;
-
-    if (navOpenStatus) {
-        buttonNode.classList.remove("open");
-    } else {
-        buttonNode.classList.add("open");
+    function onBtnClickHandler() {
+        if (navOpenStatus) {
+            buttonNode.classList.remove("open");
+            sideNavNode.classList.add("d-none");
+            navOpenStatus = !navOpenStatus;
+        } else {
+            buttonNode.classList.add("open");
+            sideNavNode.classList.remove("d-none");
+            navOpenStatus = !navOpenStatus;
+        }
     }
-}
+});
