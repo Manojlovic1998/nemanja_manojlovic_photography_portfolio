@@ -122,6 +122,10 @@ h1 {
   margin-top: 8rem;
 }
 
+.text-light-gray.active-link {
+  color: #414145;
+}
+
 /* Nav Burger Icon */
 
 .menu-btn {
