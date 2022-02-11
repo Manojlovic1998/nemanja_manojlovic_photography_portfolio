@@ -206,3 +206,9 @@ h1 {
 .s-media-icon:hover {
   color: #cccccc;
 }
+
+/* Prevent scroll */
+.prevent-scroll {
+  height: 100vh;
+  overflow: hidden;
+}
