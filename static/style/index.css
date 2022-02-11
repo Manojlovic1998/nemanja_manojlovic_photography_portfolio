@@ -3,6 +3,7 @@
 .landing-page-background {
   background-size: cover;
   background: url("../img/landing-page-bg.jpg") no-repeat 56% 32%;
+  background-size: cover;
   min-height: 100vh;
 }
 
@@ -10,4 +11,21 @@
   background: transparent;
   border: none;
   padding: 0;
+}
+
+.gallery-preview-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 50%;
+  background-color: #cccccc;
+  z-index: -1;
+}
+
+@media (min-width: 992px) {
+  .landing-page-background {
+    background: initial;
+  }
 }

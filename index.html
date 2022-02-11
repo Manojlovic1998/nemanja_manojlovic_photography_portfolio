@@ -33,8 +33,11 @@
           <a class="navbar-brand text-white m-0" href="index.html"
             ><img
               alt="Water mark logo, Nemanja Manojlovic Photography."
-              class="img-fluid my-auto"
-              src="./static/img/water-mark-white.png"
+              class="img-fluid my-auto d-lg-none"
+              src="static/img/water-mark-white.png" />
+            <img
+              src="static/img/water-mark-black.png"
+              alt="Water mark logo, Nemanja Manojlovic Photography."
           /></a>
           <button class="menu-btn" id="nav-btn" type="button">
             <span class="burger-icon"> </span>
@@ -92,14 +95,23 @@
     <main class="my-auto">
       <div class="container py-4">
         <div class="row rounded-3">
-          <div class="col-12">
-            <h1 class="display-4 ms-2 fw-bold lh-lg text-light-gray">
+          <div class="col-lg-6 d-none d-lg-block gallery-preview-wrapper">
+            Left Side
+          </div>
+          <div class="col-12 col-lg-6 p-lg-5">
+            <h1 class="display-4 ms-2 fw-bold lh-lg d-lg-none text-light-gray">
               Hobbyist Photographer.<br />See The World Through My Eyes.
             </h1>
-            <a class="btn ms-2 btn-primary mt-5" href="#" role="button"
+            <h1 class="fw-bold lh-base d-none d-lg-block text-dark-gray">
+              Hobbyist Photographer.<br />See The World Through My Eyes.
+            </h1>
+            <a
+              class="btn ms-2 ms-lg-0 btn-primary mt-5 mt-lg-2"
+              href="#"
+              role="button"
               >GALLERY</a
             >
-            <ul class="d-flex flex-row list-unstyled mt-5">
+            <ul class="d-flex flex-row list-unstyled mt-5 d-lg-none">
               <li class="ms-2">
                 <a href="https://www.instagram.com/phb.nikko/" target="_blank"
                   ><i class="fab fa-instagram text-light-gray fs-1"></i
@@ -113,6 +125,23 @@
               <li class="ms-5">
                 <a href="#"
                   ><i class="fab fa-facebook-square text-light-gray fs-1"></i
+                ></a>
+              </li>
+            </ul>
+            <ul class="d-flex flex-row list-unstyled mt-5">
+              <li class="ms-2">
+                <a href="https://www.instagram.com/phb.nikko/" target="_blank"
+                  ><i class="fab fa-instagram text-dark-gray fs-3"></i
+                ></a>
+              </li>
+              <li class="ms-5">
+                <a href="#"
+                  ><i class="fab fa-twitter-square text-dark-gray fs-3"></i
+                ></a>
+              </li>
+              <li class="ms-5">
+                <a href="#"
+                  ><i class="fab fa-facebook-square text-dark-gray fs-3"></i
                 ></a>
               </li>
             </ul>
