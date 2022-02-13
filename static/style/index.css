@@ -7,6 +7,10 @@
   min-height: 100vh;
 }
 
+.hero-btn {
+  text-transform: uppercase;
+}
+
 .gallery-preview-wrapper::before {
   content: "";
   position: absolute;
@@ -21,5 +25,9 @@
 @media (min-width: 992px) {
   .landing-page-background {
     background: initial;
+  }
+
+  .hero-btn {
+    text-transform: capitalize;
   }
 }
