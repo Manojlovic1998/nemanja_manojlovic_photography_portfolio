@@ -167,6 +167,9 @@ h1 {
   align-items: center;
   min-height: 28px;
   width: 32px;
+  background: transparent;
+  border: none;
+  padding: 0;
 }
 
 .burger-icon {
@@ -226,7 +229,31 @@ h1 {
   right: 0;
   width: 280px;
   height: 100%;
-  background: #ababab;
+  background: #f8f9fa;
+}
+
+@media (min-width: 992px) {
+  #side-nav {
+    background-color: initial;
+    position: initial;
+    width: initial;
+  }
+
+  .mobile-nav-list {
+    margin: 0;
+  }
+
+  .nav-link {
+    border: none;
+  }
+
+  #side-nav > ul > li > a.nav-link {
+    border-width: 0 0 3px;
+  }
+
+  .active-link {
+    border: solid #414145;
+  }
 }
 
 /* Class social-icon is targeted by ad blockers so s-media-icon was used as walk around*/
@@ -243,4 +270,11 @@ h1 {
 .prevent-scroll {
   height: 100vh;
   overflow: hidden;
+}
+
+@media (min-width: 992px) {
+  .prevent-scroll {
+    height: initial;
+    overflow: initial;
+  }
 }

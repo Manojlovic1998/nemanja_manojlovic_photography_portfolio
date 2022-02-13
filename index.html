@@ -37,39 +37,37 @@
               src="static/img/water-mark-white.png" />
             <img
               src="static/img/water-mark-black.png"
+              class="img-fluid my-auto d-none d-lg-block"
               alt="Water mark logo, Nemanja Manojlovic Photography."
           /></a>
-          <button class="menu-btn" id="nav-btn" type="button">
-            <span class="burger-icon"> </span>
-          </button>
           <div
-            class="h-100 d-flex flex-column flex-shrink-0 p-3 bg-light d-none"
+            class="h-100 d-flex flex-column flex-shrink-0 p-3 p-lg-0 d-none ms-lg-auto"
             id="side-nav"
           >
-            <ul class="list-unstyled mobile-nav-list">
+            <ul class="list-unstyled mobile-nav-list d-lg-flex">
               <li>
                 <a
-                  class="py-3 nav-link text-uppercase text-light-gray active-link fw-bold"
+                  class="py-3 me-5 nav-link text-uppercase text-light-gray active-link fw-bold"
                   href="#"
-                  ><i class="fas fa-home fs-3 me-2"></i> Home</a
+                  ><i class="fas fa-home fs-3 me-2 d-lg-none"></i> Home</a
                 >
               </li>
               <li>
                 <a
-                  class="py-3 nav-link text-uppercase text-light-gray fw-bold"
+                  class="py-3 me-5 nav-link text-uppercase text-light-gray fw-bold"
                   href="#"
-                  ><i class="fas fa-image fs-3 me-2"></i> Gallery</a
+                  ><i class="fas fa-image fs-3 me-2 d-lg-none"></i> Gallery</a
                 >
               </li>
               <li>
                 <a
-                  class="py-3 nav-link text-uppercase text-light-gray fw-bold"
+                  class="py-3 me-5 nav-link text-uppercase text-light-gray fw-bold"
                   href="#"
-                  ><i class="fas fa-user fs-3 me-2"></i> About</a
+                  ><i class="fas fa-user fs-3 me-2 d-lg-none"></i> About</a
                 >
               </li>
             </ul>
-            <div class="mt-auto">
+            <div class="mt-auto d-lg-none">
               <ul class="d-flex flex-row list-unstyled justify-content-evenly">
                 <li>
                   <a href="https://www.instagram.com/phb.nikko/" target="_blank"
@@ -89,6 +87,9 @@
               </ul>
             </div>
           </div>
+          <button class="menu-btn" id="nav-btn" type="button">
+            <span class="burger-icon"> </span>
+          </button>
         </div>
       </nav>
     </header>
