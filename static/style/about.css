@@ -1,1 +1,16 @@
 @import url("./shared.css");
+
+.about-cover > img {
+  object-fit: cover;
+  object-position: top center;
+  height: 300px;
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .about-cover > img {
+    object-fit: cover;
+    object-position: 0 17%;
+    height: 400px;
+  }
+}
